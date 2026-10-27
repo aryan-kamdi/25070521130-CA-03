@@ -18,7 +18,7 @@ An end-to-end, full-stack movie curation, review, and watchlist web platform bui
 ## 📁 Project Structure
 
 ```text
-flexi aryan/
+25070521130/
 ├── client/                     # React + Vite Frontend Application
 │   ├── public/
 │   ├── src/
@@ -49,6 +49,7 @@ flexi aryan/
 │
 ├── README.md                   # Complete documentation & instructions
 └── .gitignore                  # Global git ignores
+└── package.json                # Root scripts to run client & server
 ```
 
 ---
@@ -66,6 +67,20 @@ Before launching the project:
 ## 🚀 Setup & Execution Guide
 
 Open two terminal windows (one for `server`, one for `client`):
+
+### Step 0: Create Environment File
+
+```bash
+# Inside the server/ directory, copy the example env file
+cd server
+copy .env.example .env
+```
+
+The default `.env` values work out-of-the-box with a local MongoDB instance.
+
+---
+
+### Terminal 1: Backend Server
 
 ### Terminal 1: Backend Server
 
